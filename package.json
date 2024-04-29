@@ -1,16 +1,30 @@
 {
-  "name": "sit725-2024-t1-prac2",
+  "name": "sit725-2024-t1-pra7",
   "version": "1.0.0",
+  "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha --reporter spec",
     "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s224280593/sit725-2024-t1-prac2.git"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.19.2",
-    "mongodb": "^6.5.0"
+  "bugs": {
+    "url": "https://github.com/s224280593/sit725-2024-t1-prac2/issues"
   },
-  "description": ""
+  "homepage": "https://github.com/s224280593/sit725-2024-t1-prac2#readme",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "express": "^4.18.3",
+    "http": "^0.0.1-security",
+    "mocha": "^10.4.0",
+    "mongodb": "^6.5.0",
+    "nodemon": "^3.1.0",
+    "request": "^2.88.2",
+    "socket.io": "^4.7.5"
+  }
 }
