@@ -1,7 +1,7 @@
 const { expect } = require("chai");
 let request = require("request");
 let url = 'http://localhost:3000/api/places';
-let cat = {paht:'',title:''}
+let place = {path:'',title:''}
 
 describe('name', function() {
     it('description', function(done) {
@@ -22,8 +22,3 @@ describe('name2', function() {
         });
     });
 });
-// connect to the socket
-let socket = io();
-socket.on('number', (msg) => {
-console.log('Random number: ' + msg);
-})

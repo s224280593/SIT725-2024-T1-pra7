@@ -22,10 +22,5 @@ io.on('connection', (socket) => {
 });
 
 http.listen(port, () => {
-    console.log('server started');
+    console.log('server started ' + port);
 });
-// connect to the socket
-let socket = io();
-socket.on('number', (msg) => {
-console.log('Random number: ' + msg);
-})
