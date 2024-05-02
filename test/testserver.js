@@ -16,7 +16,7 @@ describe('name', function() {
 
 describe('name2', function() {
     it('it2', function(done){
-        request.post({url:url,form:cat}, function(a,b,c){
+        request.post({url:url,form:place}, function(a,b,c){
             //todo assert here
             done();
         });
